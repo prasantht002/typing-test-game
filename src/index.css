@@ -1,0 +1,49 @@
+.app{
+  background-color: black;
+  height: 100vh;
+  color: aliceblue  ;
+}
+.header{
+  background-color: black;
+  color: white;
+  border: solid 1px;
+}
+.align-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  display: flex;
+  height: 20vh;
+}
+.cell{
+  width: 25vh;
+  border: 1px solid white;
+  color: black;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.board{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+.yellow{
+  background-color: yellow;
+}
+.orange{
+  background-color: orange;
+}
+
+.restart-btn{
+  height: 30px;
+  background-color:aquamarine;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: black;
+}
